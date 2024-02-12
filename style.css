@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: cursive;
+    box-sizing: border-box;
+}
+html, body{
+    width: 100%;
+    height: 100%;
+    background-color: #0766AD;
+}
+
+.main{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+}
+
+#box{
+    gap: 15px;
+    width: 35%;
+    height: 40%;
+    display: flex;
+    padding: 20px;
+    margin: 10px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.505);
+    border-radius: 10px;
+    background-color: #29ADB2;
+}
+#box h2{
+    text-align: left;
+    width: 100%;
+    font-size: 35px;
+}
+#box .textarea{
+    resize: none;
+    font-size: 20px;
+    padding: 10px;
+    font-family: Poppins;
+    border: 2px solid rgba(0, 0, 0, 0.767);
+    width: 100%;
+    height: 60%;
+}
+
+.counter-box{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.counter-box p{
+    margin: 5px;
+    font-weight: 600;
+    font-size: 20px;
+}
+.total-counter{
+    color: #C5E898;
+}
+.remain-counter{
+    color: #F3F3F3;
+}
